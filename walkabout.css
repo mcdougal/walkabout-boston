@@ -1,0 +1,128 @@
+
+body {
+    background: #f0f0f0;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+#title {
+    background: #fff;
+    font-size: 5.4em;
+    font-weight: 300;
+    line-height: 250px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+
+#title-b {
+    font-weight: 400;
+}
+
+#city-pan {
+    height: 250px;
+    opacity: .15;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#content {
+    margin: 0 auto;
+    padding-bottom: 50px;
+    width: 1000px;
+}
+
+#modal {
+    background: rgba(0,0,0,.8);
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+#modal-frame {
+    background: #fff;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1000px;
+}
+
+.modal-photo-v {
+    display: block;
+    height: 800px;
+    left: 25px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.modal-photo-h {
+    float: left;
+    margin-top: 5px;
+    width: 1000px;
+}
+
+#modal-close {
+    background: #fff;
+    float: right;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 5px;
+    width: 25px;
+}
+
+#modal-close:hover {
+    cursor: pointer;
+}
+
+.tile {
+    background: #fff;
+    margin-top: 50px;
+    padding: 0 75px 50px 75px;
+    text-align: center;
+}
+
+.timestamp {
+    color: #ccc;
+    display: block;
+    font-size: .9em;
+    margin-right: -60px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.photo {
+    background: #eee;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+.photo {
+    cursor: pointer;
+}
+
+.photo-v {
+    width: 300px;
+}
+
+.photo-h {
+    width: 450px;
+}
+
+.description {
+    color: #444;
+    display: block;
+}
